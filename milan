@@ -37,7 +37,6 @@
             <li><a href="index.html">Főoldal</a></li>
             <li><a href="programok.html">Programok</a></li>
             <li><a href="galeria.html">Galéria</a></li>
-            <li><a href="jatekok.html">Játékok</a></li>
           </ul>
           <a href="#" class="close">Close</a>
         </div>
@@ -126,22 +125,29 @@
                 az emlékezetes tudós születése és a matematikai ünnep között,
                 hiszen a π (pi) értéke 3.14-re kerekül.
               </p>
-              <a
-                href="https://hu.wikipedia.org/wiki/Albert_Einstein"
-                class="special"
-                target="_blank"
-                >Mutass többet!</a>
+              <a href="#" class="special">Learn more</a>
             </div>
           </div>
         </section>
+<<<<<<< Updated upstream
         <!-- MILÁN RÉSZE ˇˇˇˇ -->
+=======
+
+        <!--Milan innentol le, Janos innentol fel-->
+>>>>>>> Stashed changes
         <!-- Four -->
         <section id="four" class="wrapper alt style1">
           <div class="inner">
-            <h2 class="major">Galéria</h2>
+            <h2 class="major">Vitae phasellus</h2>
+            <p>
+              Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
+              Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
+              egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
+              in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+            </p>
             <section class="features">
               <article>
-                <a href="programok.html" class="image"
+                <a href="#" class="image"
                   ><img src="coffee.png" alt=""
                 /></a>
                 <h3 class="major">Kávézó</h3>
@@ -149,21 +155,25 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                   nulla dignissim dapibus ultrices.
                 </p>
-                <a href="programok.html" class="special">Mutass többet!</a>
+                <a href="#" class="special">Mutass többet!</a>
               </article>
               <article>
-                <a href="programok.html" class="image"
-                  ><img src="einsteinh.png" alt=""
+                <a href="#" class="image"
+                  ><img src="images/pic05.jpg" alt=""
                 /></a>
+<<<<<<< Updated upstream
                 <h3 class="major">Einstein hasonmásverseny</h3>
+=======
+                <h3 class="major">Einstein hasonmásverseny </h3>
+>>>>>>> Stashed changes
                 <p>
-                  Öltözz Eisteinnel és nyerd meg a Tortát!<br>
-                  Az 5. órában felvonulás!
+                  Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
+                  nulla dignissim dapibus ultrices.
                 </p>
-                <a href="programok.html" class="special">Mutass többet!</a>
+                <a href="#" class="special">Mutass többet!</a>
               </article>
               <article>
-                <a href="programok.html" class="image"
+                <a href="#" class="image"
                   ><img src="images/pic06.jpg" alt=""
                 /></a>
                 <h3 class="major">Játékok</h3>
@@ -171,42 +181,29 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                   nulla dignissim dapibus ultrices.
                 </p>
-                <a href="jatekok.html" class="special">Mutass többet!</a>
+                <a href="#" class="special">Mutass többet!</a>
               </article>
               <article>
                 <a href="#" class="image"
                   ><img src="images/pic07.jpg" alt=""
                 /></a>
-                <h3 class="major">Online Szabadulószoba</h3>
+                <h3 class="major">Szabadulószoba</h3>
                 <p>
-                  3.-4. óra: szabadulószoba (gépterem)<br>
-                  Programokon való részvétel regisztrációhoz kötött.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
+                  nulla dignissim dapibus ultrices.
                 </p>
-                <a href="programok.html" class="special">Mutass többet!</a>
+                <a href="#" class="special">Mutass többet!</a>
               </article>
             </section>
             <ul class="actions">
-              <li><a href="galeria.html" class="button">Összes Megtekintése</a></li>
+              <li><a href="#" class="button">Browse All</a></li>
             </ul>
           </div>
-          <img
-            src="images/fomenu/footerbg.jpg"
-            alt=""
-            style="position: absolute; width: 100%"
-            height="150px"
-          />
         </section>
       </section>
-      <section id="footer">
+
       <!-- Footer -->
-      <section
-        id="footer"
-        style="
-          background-image: url(images/fomenu/footerbg.jpg);
-          background-position: center;
-          background-size: contain;
-        "
-      >
+      <section id="footer">
         <div class="inner">
           <ul class="copyright">
             <li>&copy; Kaposvári SZC Noszlopy Gáspár Közgazdasági Technikum. Minden jog fenntartva.</li>
@@ -215,7 +212,6 @@
         </div>
       </section>
     </div>
-    <!-- Footer -->
 
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
