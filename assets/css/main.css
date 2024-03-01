@@ -102,7 +102,7 @@ input, select, textarea {
 		background-image: url("../../images/fomenu/einstein-bg.jpg");
 		background-blend-mode:color-dodge;
 		background-color: #2e3141;
-		background-size: auto,
+		background-size: 100%,
  cover;
 		background-attachment: fixed,
  fixed;
@@ -3469,7 +3469,7 @@ input, select, textarea {
 				background-color: #2e3141;
 				background-image: url("../../images/fomenu/einstein-bg.jpg");
 				background-blend-mode:color-dodge;
-				background-size: auto,
+				background-size: 100%,
  cover;
 				background-position: center,
  center;
@@ -3582,7 +3582,7 @@ input, select, textarea {
 			background-color: #2e3141;
 			background-image: url("../../images/fomenu/einstein-bg.jpg");
 			background-blend-mode:color-dodge;
-			background-size: auto,
+			background-size: 100%,
  cover;
 			background-position: center,
  0% 30%;
@@ -4076,7 +4076,7 @@ input, select, textarea {
 			background-color: #2e3141;
 			background-image: url("../../images/fomenu/einstein-bg.jpg");
 			background-blend-mode:color-dodge;
-			background-size: auto,
+			background-size: 100%,
  cover;
 			background-position: center,
  center;
