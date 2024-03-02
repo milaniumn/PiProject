@@ -3469,7 +3469,7 @@ input, select, textarea {
 				background-color: #2e3141;
 				background-image: url("../../images/fomenu/einstein-bg.jpg");
 				background-blend-mode:color-dodge;
-				background-size: 100%,
+				background-size: 150%,
  cover;
 				background-position: center,
  center;
@@ -3486,7 +3486,7 @@ input, select, textarea {
 			}
 
 				#banner .inner {
-					width: 100%;
+					width: 150%;
 				}
 
 		}
@@ -3603,7 +3603,7 @@ input, select, textarea {
 		}
 
 			#wrapper > header .inner {
-				width: 100%;
+				width: 200%;
 			}
 
 	}
