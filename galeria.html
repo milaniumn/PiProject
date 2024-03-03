@@ -16,6 +16,40 @@
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
+
+    <script>
+      /* Ezt mindegyik gombhoz csatold. */
+      function closelearnmenu() {
+        var lmenu = document.getElementById("learn-menu");
+        lmenu.style.visibility = "hidden";
+        return false;
+      }
+
+      function openlearnmenu() {
+        var lmenu = document.getElementById("learn-menu");
+        lmenu.style.visibility = "visible";
+        return false;
+      }
+
+      /* Ezt a kávézó gombjához rakd */
+      function changekavezo() {
+        var title = document.getElementById("learnmoretitle");
+        var description = document.getElementById("learnmoredescription");
+        title.textContent = "Kávézó";
+        description.textContent = "Frei kávéház az egyik legjobb kávézó. ";
+        return false;
+      }
+
+      /* Ezt a hasonmásos cuccli gombjához rakd */
+      function changehasonmas() {
+        var title = document.getElementById("learnmoretitle");
+        var description = document.getElementById("learnmoredescription");
+        title.textContent = "Einstein hasonmásverseny";
+        description.textContent =
+          "öltözz be einsteinek hogy nyerj 1 millió aranyt";
+        return false;
+      }
+    </script>
   </head>
   <body class="is-preload">
     <!-- Page Wrapper -->
@@ -42,6 +76,29 @@
         </div>
       </nav>
 
+      <!-- Learn More Menu -->
+      <nav
+        id="learn-menu"
+        style="z-index: 100; position: fixed; visibility: hidden"
+      >
+        <div class="inner">
+          <h2 id="learnmoretitle">Kávézó</h2>
+          <ul>
+            <li id="learnmoredescription">
+              A kávézók jók, főleg a frei cafe. nyam nyam nyam
+            </li>
+          </ul>
+          <button
+            id="closelearnmenubtn"
+            class="btn"
+            onclick="closelearnmenu()"
+            ;
+          >
+            Vissza
+          </button>
+        </div>
+      </nav>
+
       <!-- Wrapper -->
       <section id="wrapper">
         <header>
@@ -54,31 +111,43 @@
         <!-- Content -->
         <div class="wrapper">
           <div class="inner">
-
             <section class="features">
               <article>
                 <a href="#" class="image"
                   ><img src="images/pic04.jpg" alt=""
                 /></a>
-                <h3 class="major">Sed feugiat lorem</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                  nulla dignissim dapibus ultrices.
-                </p>
-                <a href="#" class="special">Learn more</a>
+                <h3 class="major">Kávézó</h3>
+                <p>Frei kávéház meg ilyenek?</p>
+                <nav>
+                  <button
+                    id="openlearnmenubtn"
+                    class="btn"
+                    onclick="openlearnmenu(), changekavezo()"
+                    style="margin-bottom: 20px"
+                    ;
+                  >
+                    Mutass többet!
+                  </button>
+                </nav>
               </article>
               <article>
                 <a href="#" class="image"
                   ><img src="images/pic05.jpg" alt=""
                 /></a>
-                <h3 class="major">Nisl placerat</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                  nulla dignissim dapibus ultrices.
-                </p>
-                <a href="#" class="special">Learn more</a>
+                <h3 class="major">Einstein hasonmásverseny</h3>
+                <p>Lusta vagyok leírást irni</p>
+
+                <button
+                  id="openlearnmenubtn"
+                  class="btn"
+                  onclick="openlearnmenu(), changehasonmas()"
+                  style="margin-bottom: 20px"
+                  ;
+                >
+                  Mutass többet!
+                </button>
               </article>
-<article>
+              <article>
                 <a href="#" class="image"
                   ><img src="images/pic06.jpg" alt=""
                 /></a>
@@ -87,7 +156,16 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                   nulla dignissim dapibus ultrices.
                 </p>
-                <a href="#" class="special">Learn more</a>
+
+                <button
+                  id="openlearnmenubtn"
+                  class="btn"
+                  onclick="openlearnmenu()"
+                  style="margin-bottom: 20px"
+                  ;
+                >
+                  Mutass többet!
+                </button>
               </article>
               <article>
                 <a href="#" class="image"
@@ -98,7 +176,16 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                   nulla dignissim dapibus ultrices.
                 </p>
-                <a href="#" class="special">Learn more</a>
+
+                <button
+                  id="openlearnmenubtn"
+                  class="btn"
+                  onclick="openlearnmenu()"
+                  style="margin-bottom: 20px"
+                  ;
+                >
+                  Mutass többet!
+                </button>
               </article>
             </section>
 
