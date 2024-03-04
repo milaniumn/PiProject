@@ -35,8 +35,9 @@
       function changekavezo() {
         var title = document.getElementById("learnmoretitle");
         var description = document.getElementById("learnmoredescription");
-        title.textContent = "Kávézó";
-        description.textContent = "Frei kávéház az egyik legjobb kávézó. ";
+        title.textContent = "Kávézó"; /*  Kávézó cím */
+        description.textContent =
+          "Frei kávéház az egyik legjobb kávézó. "; /* Kávézó leírást ide ANDRÁS*/
         return false;
       }
 
@@ -44,9 +45,28 @@
       function changehasonmas() {
         var title = document.getElementById("learnmoretitle");
         var description = document.getElementById("learnmoredescription");
-        title.textContent = "Einstein hasonmásverseny";
+        title.textContent =
+          "Einstein hasonmásverseny"; /* Einstein verseny cím */
         description.textContent =
-          "öltözz be einsteinek hogy nyerj 1 millió aranyt";
+          "öltözz be einsteinek hogy nyerj 1 millió aranyt"; /* Einstein verseny leírást ide ANDRÁS*/
+        return false;
+      }
+
+      /* Ezt a hasonmásos cuccli gombjához rakd */
+      function changeszabaduloszoba() {
+        var title = document.getElementById("learnmoretitle");
+        var description = document.getElementById("learnmoredescription");
+        title.textContent = ""; /* Szabaduló szoba cím ANDRÁS*/
+        description.textContent = ""; /* Szabaduló szoba leírást ide ANDRÁS*/
+        return false;
+      }
+
+      /* Ezt a hasonmásos cuccli gombjához rakd */
+      function changematekverseny() {
+        var title = document.getElementById("learnmoretitle");
+        var description = document.getElementById("learnmoredescription");
+        title.textContent = ""; /* Matekverseny cím ANDRÁS*/
+        description.textContent = ""; /* Matekverseny leírást ide ANDRÁS*/
         return false;
       }
     </script>
@@ -104,7 +124,9 @@
         <header>
           <div class="inner">
             <h2>Elements</h2>
+            <!--Oldal cím ide ANDRÁS-->
             <p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+            <!--Oldal alcím ide ANDRÁS-->
           </div>
         </header>
 
@@ -160,7 +182,7 @@
                 <button
                   id="openlearnmenubtn"
                   class="btn"
-                  onclick="openlearnmenu()"
+                  onclick="openlearnmenu(), changeszabaduloszoba()"
                   style="margin-bottom: 20px"
                   ;
                 >
@@ -180,7 +202,7 @@
                 <button
                   id="openlearnmenubtn"
                   class="btn"
-                  onclick="openlearnmenu()"
+                  onclick="openlearnmenu(), changematekverseny()"
                   style="margin-bottom: 20px"
                   ;
                 >
