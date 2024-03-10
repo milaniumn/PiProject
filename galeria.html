@@ -4,7 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html style="scroll-behavior: smooth;">
   <head>
     <title>Elements - Solid State by HTML5 UP</title>
     <meta charset="utf-8" />
@@ -17,59 +17,6 @@
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
 
-    <script>
-      /* Ezeket mindegyik gombhoz csatold. */
-      function closelearnmenu() {
-        var lmenu = document.getElementById("learn-menu");
-        lmenu.style.visibility = "hidden";
-        return false;
-      }
-
-      function openlearnmenu() {
-        var lmenu = document.getElementById("learn-menu");
-        lmenu.style.visibility = "visible";
-        return false;
-      }
-
-      /* Ezt a kávézó gombjához rakd */
-      function changekavezo() {
-        var title = document.getElementById("learnmoretitle");
-        var description = document.getElementById("learnmoredescription");
-        title.textContent = "Kávézó"; /*  Kávézó cím */
-        description.textContent =
-          "Szünetben kávéház üzemel az aulában (tea, süti, koktél, kávé) "; /* Kávézó leírást ide ANDRÁS*/
-        return false;
-      }
-
-      /* Ezt a hasonmásos cuccli gombjához rakd */
-      function changehasonmas() {
-        var title = document.getElementById("learnmoretitle");
-        var description = document.getElementById("learnmoredescription");
-        title.textContent =
-          "Einstein hasonmásverseny"; /* Einstein verseny cím */
-        description.textContent =
-          "Einstein hasonmás verseny az 5. órában felvonulás"; /* Einstein verseny leírást ide ANDRÁS*/
-        return false;
-      }
-
-      /* Ezt a hasonmásos cuccli gombjához rakd */
-      function changeszabaduloszoba() {
-        var title = document.getElementById("learnmoretitle");
-        var description = document.getElementById("learnmoredescription");
-        title.textContent = "Szabadulószoba"; /* Szabaduló szoba cím ANDRÁS*/
-        description.textContent = "3.-4. óra: szabadulószoba gépterem Programokon való részvétel regisztrációhoz kötött"; /* Szabaduló szoba leírást ide ANDRÁS*/
-        return false;
-      }
-
-      /* Ezt a hasonmásos cuccli gombjához rakd */
-      function changematekverseny() {
-        var title = document.getElementById("learnmoretitle");
-        var description = document.getElementById("learnmoredescription");
-        title.textContent = "Matekverseny"; /* Matekverseny cím ANDRÁS*/
-        description.textContent = "3. óra Programokon való részvétel regisztrációhoz kötött"; /* Matekverseny leírást ide ANDRÁS*/
-        return false;
-      }
-    </script>
   </head>
   <body class="is-preload">
     <!-- Page Wrapper -->
@@ -85,7 +32,7 @@
       <!-- Menu -->
       <nav id="menu">
         <div class="inner">
-          <h2>Menu</h2>
+          <h2>Menü</h2>
           <ul class="links">
             <li><a href="index.html">Főoldal</a></li>
             <li><a href="programok.html">Programok</a></li>
@@ -141,14 +88,11 @@
                 <h3 class="major">Kávézó</h3>
                 <p>Legjobb kávézó az iskolába</p>
                 <nav>
+                  
                   <button
-                    id="openlearnmenubtn"
-                    class="btn"
-                    onclick="openlearnmenu(), changekavezo()"
-                    style="margin-bottom: 20px"
-                    ;
+                    class="btn" style="margin-bottom: 20px;"
                   >
-                    Mutass többet!
+                  <a href="#kavezo">Mutass többet!</a>
                   </button>
                 </nav>
               </article>
@@ -160,14 +104,11 @@
                 <p>Mennyira vagy Einsten?</p>
 
                 <button
-                  id="openlearnmenubtn"
-                  class="btn"
-                  onclick="openlearnmenu(), changehasonmas()"
-                  style="margin-bottom: 20px"
-                  ;
-                >
-                  Mutass többet!
-                </button>
+                    class="btn" style="margin-bottom: 20px;"
+                  >
+                  <a href="#einsteinverseny">Mutass többet!</a>
+                  </button>
+              
               </article>
               <article>
                 <a href="#" class="image"
@@ -179,14 +120,10 @@
                 </p>
 
                 <button
-                  id="openlearnmenubtn"
-                  class="btn"
-                  onclick="openlearnmenu(), changeszabaduloszoba()"
-                  style="margin-bottom: 20px"
-                  ;
-                >
-                  Mutass többet!
-                </button>
+                    class="btn" style="margin-bottom: 20px;"
+                  >
+                  <a href="#szabaduloszoba">Mutass többet!</a>
+                  </button>
               </article>
               <article>
                 <a href="#" class="image"
@@ -198,17 +135,13 @@
                 </p>
 
                 <button
-                  id="openlearnmenubtn"
-                  class="btn"
-                  onclick="openlearnmenu(), changematekverseny()"
-                  style="margin-bottom: 20px"
-                  ;
-                >
-                  Mutass többet!
-                </button>
+                    class="btn" style="margin-bottom: 20px;"
+                  >
+                  <a href="#matekverseny">Mutass többet!</a>
+                  </button>
               </article>
               <article>
-                <a href="#" class="image"
+                <a href="#" class="image" 
                   ><img src="images/pic07.jpg" alt=""
                 /></a>
                 <h3 class="major">Escher művészete</h3>
@@ -217,14 +150,10 @@
                 </p>
 
                 <button
-                  id="openlearnmenubtn"
-                  class="btn"
-                  onclick="openlearnmenu(), changematekverseny()"
-                  style="margin-bottom: 20px"
-                  ;
-                >
-                  Mutass többet!
-                </button>
+                    class="btn" style="margin-bottom: 20px;"
+                  >
+                  <a href="#eschermuveszete">Mutass többet!</a>
+                  </button>
               </article>
             </section>
 
@@ -285,8 +214,8 @@
                   </div>
                 </div>
               </div>
-              <h4>További Érdekességek</h4>
-              <p>
+              <h4 id="kavezo" >További Érdekességek</h4>
+              <p style="padding-top: 30px;">
                 <span class="image left"
                   ><img src="images/pic01.jpg" alt="" /></span
                 ><h3>kávézó</h3>
@@ -310,7 +239,7 @@
                 ac sagittis semper. Curabitur purus leo, tempus sed finibus.
                 
               </p>
-              <p>
+              <p id="einsteinverseny" style="padding-top: 30px;">
                 <span class="image right"
                   ><img src="images/pic02.jpg" alt="" /></span
                 ><h3>Einstein hasonmás verseny</h3>
@@ -331,7 +260,7 @@
                 efficitur quam. Fusce nec fermentum nisl. Aenean erat diam,
                dui.
               </p>
-              <p>
+              <p id="szabaduloszoba" style="padding-top: 30px;">
                 <span class="image left"
                   ><img src="images/pic01.jpg" alt="" /></span
                 ><h3>Szabadulószoba</h3>
@@ -353,7 +282,7 @@
                 vulputate ex et ex tincidunt, quis lacinia velit aliquet.
                 
               </p>
-              <p>
+              <p id="matekverseny" style="padding-top: 30px;">
                 <span class="image right"
                   ><img src="images/pic02.jpg" alt="" /></span
                 ><h3>Matekverseny</h3>
@@ -373,6 +302,7 @@
                 justo. Aliquam dolor quam, semper in tortor eu, volutpat.
                 
               </p>
+              <p id="eschermuveszete" style="padding-top: 30px;">
               <span class="image left"
                   ><img src="images/pic01.jpg" alt="" /></span
                 ><h3>Escher művészete</h3>
