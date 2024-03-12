@@ -3469,7 +3469,7 @@ input, select, textarea {
 				background-color: #2e3141;
 				background-image: url("../../images/fomenu/einstein-bg.jpg");
 				background-blend-mode:color-dodge;
-				background-size: 150%,
+				background-size: 100%,
  cover;
 				background-position: center,
  center;
@@ -3486,7 +3486,7 @@ input, select, textarea {
 			}
 
 				#banner .inner {
-					width: 150%;
+					width: 100%;
 				}
 
 		}
@@ -3603,7 +3603,7 @@ input, select, textarea {
 		}
 
 			#wrapper > header .inner {
-				width: 200%;
+				width: 100%;
 			}
 
 	}
@@ -4158,156 +4158,3 @@ input, select, textarea {
 		}
 
 	}
-
-	/* Menu */
-
-	#learn-page-wrapper {
-		-moz-filter: blur(1.5px);
-	-webkit-filter: blur(1.5px);
-	-ms-filter: blur(1.5px);
-	filter: blur(1.5px);
-	}
-
-	
-
-	#learn-menu {
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		pointer-events: auto;
-		-moz-transition: opacity 0.35s ease, visibility 0.35s;
-		-webkit-transition: opacity 0.35s ease, visibility 0.35s;
-		-ms-transition: opacity 0.35s ease, visibility 0.35s;
-		transition: opacity 0.35s ease, visibility 0.35s;
-		-moz-user-select: none;
-		-webkit-user-select: none;
-		-ms-user-select: none;
-		user-select: none;
-		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-		background: rgba(46, 49, 65, 0.8);
-		cursor: default;
-		height: 100%;
-		left: 0;
-		opacity: 1;
-		position: fixed;
-		text-align: center;
-		top: 0;
-		width: 100%;
-		visibility: visible;
-	}
-
-		#learn-menu .inner {
-			padding: 2.5em 1.5em 0.5em 1.5em ;
-			-moz-transform: translateY(0);
-			-webkit-transform: translateY(0);
-			-ms-transform: translateY(0);
-			transform: translateY(0);
-
-			-moz-transition: opacity 0.35s ease, -moz-transform 0.35s ease;
-			-webkit-transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
-			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
-			transition: opacity 0.35s ease, transform 0.35s ease;
-			-webkit-overflow-scrolling: touch;
-			background: #4c5c96;
-			border-radius: 5px;
-			display: block;
-			max-width: 100%;
-			opacity: 1;
-			position: relative;
-			width: 18em;
-			
-		}
-
-		#learn-menu h2 {
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-			padding-bottom: 1em;
-		}
-
-		#learn-menu .close {
-			background-image: url("images/close.svg");
-			background-position: 75% 25%;
-			background-repeat: no-repeat;
-			background-size: 2em 2em;
-			border: 0;
-			content: '';
-			display: block;
-			height: 4em;
-			overflow: hidden;
-			position: absolute;
-			right: 0;
-			text-align: center;
-			text-indent: 4em;
-			top: 0;
-			width: 4em;
-		}
-
-		#learn-menu .links {
-			list-style: none;
-			margin-bottom: 1.5em;
-			padding: 0;
-		}
-
-			#learn-menu .links li {
-				padding: 0;
-			}
-
-				#learn-menu .links li a {
-					border-radius: 5px;
-					border: 0;
-					display: block;
-					font-family: Raleway, Helvetica, sans-serif;
-					font-size: 0.8em;
-					font-weight: 200;
-					letter-spacing: 0.1em;
-					line-height: 1.85em;
-					padding: 0.75em 0;
-					text-transform: uppercase;
-				}
-
-					#learn-menu .links li a:hover {
-						background: #45558d;
-					}
-
-		@media screen and (max-width: 736px) {
-
-			#learn-menu .inner {
-				max-height: 100%;
-				overflow-y: auto;
-				overflow-x: hidden;
-			}
-
-				#learn-menu .inner .close {
-					background-size: 1.5em 1.5em;
-				}
-
-		}
-
-	body.is-menu-visible #learn-page-wrapper {
-		-moz-filter: blur(1.5px);
-		-webkit-filter: blur(1.5px);
-		-ms-filter: blur(1.5px);
-		filter: blur(1.5px);
-	}
-
-	body.is-menu-visible #learn-menu {
-		pointer-events: auto;
-		opacity: 1;
-		visibility: visible;
-	}
-
-		body.is-menu-visible #learn-menu .inner {
-			-moz-transform: translateY(0);
-			-webkit-transform: translateY(0);
-			-ms-transform: translateY(0);
-			transform: translateY(0);
-			opacity: 1;
-		}
